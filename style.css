@@ -1,0 +1,122 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+p {
+  user-select: none;
+}
+.social-links-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  height: 450px;
+  width: 250px;
+  background-color: rgb(17, 17, 17);
+  border-radius: 10px;
+}
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.prof {
+  height: 75px;
+  width: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.name {
+  font-size: 25px;
+  color: white;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: SemiBold 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.location {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 500;
+  color: greenyellow;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.div-job {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.job {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 400;
+  color: white;
+}
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.btn {
+  width: 280px;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  font-family: Inter;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  transition: 0.15s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#github:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+#frontend-mentor:hover {
+  cursor: pointer;
+  color: white;
+  background-color: lightsalmon;
+}
+#linkedin:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(47, 47, 255);
+}
+#twitter:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(137, 211, 235);
+}
+#instagram:hover {
+  cursor: pointer;
+  color: white;
+  background: #833ab4;
+  background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+}
